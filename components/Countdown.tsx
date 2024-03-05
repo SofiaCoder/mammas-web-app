@@ -38,7 +38,9 @@ function Countdown() {
   return (
     <div className='bg-gradient-to-r from-cyan-500 to-blue-500 p-6 rounded-lg'>
       <h1 className='text-xl text-center mb-1'>Mamma!</h1>
-      <h2 className='text-center mb-4 sm:mb-6'> Din pension är om:</h2>
+      <h2 className='text-center mb-4 sm:mb-6'>
+        Din pension innfinner sig om:
+      </h2>
       <div className='flex flex-col gap-2 sm:flex-row sm:gap-4'>
         {Object.entries(timeLeft).map(([unit, value]) => (
           <div key={unit}>
