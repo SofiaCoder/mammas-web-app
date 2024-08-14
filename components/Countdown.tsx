@@ -10,7 +10,7 @@ interface TimeLeft {
 
 function Countdown() {
   const calculateTimeLeft = () => {
-    const difference = +new Date(`2025-04-02`) - +new Date();
+    const difference = +new Date(`2025-03-01`) - +new Date();
     let timeLeft = {};
 
     if (difference > 0) {
